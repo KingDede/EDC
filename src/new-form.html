@@ -134,94 +134,44 @@
       <!-- Breadcrumb-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">Home</li>
-        <li class="breadcrumb-item active">Dashboard</li>
+        <li class="breadcrumb-item active">New Form</li>
         <!-- Breadcrumb Menu-->
       </ol>
       <div class="container-fluid">
         <div class="animated fadeIn">
           <div class="row">
-            <div class="col-sm-12 col-xl-4">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa fa-align-justify"></i> New Form
-                </div>
-                <div class="card-body">
-                  <p class="lead">Start a new executry form here!</p>
-                  <hr class="my-3">
-                  <p>Get started with a brand new executry form by clicking the button below.</p>
-                  <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="new-form.html" role="button">Create Form</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-xl-8">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa fa-align-justify"></i> My Recent Forms
-                </div>
-                <div class="card-body">
-                  <table class="table table-responsive-sm">
-                    <thead>
-                      <tr>
-                        <th>Client</th>
-                        <th>Description</th>
-                        <th>Date</th>
-                        <th>Fee Earner</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Samppa Nori</td>
-                        <td>Executry</td>
-                        <td>2012/01/01</td>
-                        <td>Bob Dole</td>
-                        <td>
-                          <span class="badge badge-success">Saved in VF</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Estavan Lykos</td>
-                        <td>Executry</td>
-                        <td>2012/02/01</td>
-                        <td>George Constanza</td>
-                        <td>
-                          <span class="badge badge-warning">Pending</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Chetan Mohamed</td>
-                        <td>Executry</td>
-                        <td>2012/02/01</td>
-                        <td>Jason Campbell</td>
-                        <td>
-                          <span class="badge badge-secondary">Inactive</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Derick Maximinus</td>
-                        <td>Executry</td>
-                        <td>2012/03/01</td>
-                        <td>Victor Filey</td>
-                        <td>
-                          <span class="badge badge-success">Saved in VF</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Dennis Rader</td>
-                        <td>Executry</td>
-                        <td>2012/01/21</td>
-                        <td>Holden Ford</td>
-                        <td>
-                          <span class="badge badge-warning">Pending</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
+            <div class="col-12">
+              <div class="container">
+                <div class="card">
+                  <div class="card-header">
+                    <strong>New Executry Form</strong>
+                  </div>
+                  <div class="card-body">
+                    <div class="row">
+                      <div class="form-group col-sm-8">
+                        <label for="city">Account Number</label>
+                        <input class="form-control" id="city" placeholder="Enter the account number" type="text">
+                      </div>
+                      <div class="form-group col-sm-4">
+                        <label for="postal-code">Date of Meeting</label>
+                        <input class="form-control" id="postal-code" placeholder="Enter the date" type="text">
+                      </div>
+                    </div>
+                    <div class="form-group">
+                      <label for="company">Client Name</label>
+                      <input class="form-control" id="company" placeholder="Enter the client's name" type="text">
+                    </div>
+                    <div class="form-group">
+                      <label for="vat">Deceased's Name</label>
+                      <input class="form-control" id="vat" placeholder="Enter the deceased's name" type="text">
+                    </div>
+                    <div class="form-group">
+                      <label for="street">Fee Earner</label>
+                      <input class="form-control" id="street" placeholder="Enter the fee earner present" type="text">
+                    </div>
+                    <!--/.row-->
+                    <a class="btn btn-primary float-right" href="exec-form.html" role="button">Create Form</a>
+                  </div>
                 </div>
               </div>
             </div>

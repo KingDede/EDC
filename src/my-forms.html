@@ -134,97 +134,224 @@
       <!-- Breadcrumb-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">Home</li>
-        <li class="breadcrumb-item active">Dashboard</li>
+        <li class="breadcrumb-item active">My Forms</li>
         <!-- Breadcrumb Menu-->
       </ol>
       <div class="container-fluid">
         <div class="animated fadeIn">
           <div class="row">
-            <div class="col-sm-12 col-xl-4">
+            <div class="col-sm-6 col-md-4">
               <div class="card">
                 <div class="card-header">
-                  <i class="fa fa-align-justify"></i> New Form
-                </div>
-                <div class="card-body">
-                  <p class="lead">Start a new executry form here!</p>
-                  <hr class="my-3">
-                  <p>Get started with a brand new executry form by clicking the button below.</p>
-                  <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="new-form.html" role="button">Create Form</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-xl-8">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa fa-align-justify"></i> My Recent Forms
+                  Samppa Nori <div class="float-right">01/01/2012</div>
                 </div>
                 <div class="card-body">
                   <table class="table table-responsive-sm">
-                    <thead>
-                      <tr>
-                        <th>Client</th>
-                        <th>Description</th>
-                        <th>Date</th>
-                        <th>Fee Earner</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
                     <tbody>
                       <tr>
-                        <td>Samppa Nori</td>
-                        <td>Executry</td>
-                        <td>2012/01/01</td>
+                        <td>Deceased Name</td>
+                        <td>Greg Smith</td>
+                      </tr>
+                      <tr>
+                        <td>Account Number</td>
+                        <td>FI22438.0002</td>
+                      </tr>
+                      <tr>
+                        <td>Fee Earner</td>
                         <td>Bob Dole</td>
-                        <td>
-                          <span class="badge badge-success">Saved in VF</span>
-                        </td>
                       </tr>
                       <tr>
-                        <td>Estavan Lykos</td>
-                        <td>Executry</td>
-                        <td>2012/02/01</td>
-                        <td>George Constanza</td>
-                        <td>
-                          <span class="badge badge-warning">Pending</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Chetan Mohamed</td>
-                        <td>Executry</td>
-                        <td>2012/02/01</td>
-                        <td>Jason Campbell</td>
-                        <td>
-                          <span class="badge badge-secondary">Inactive</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Derick Maximinus</td>
-                        <td>Executry</td>
-                        <td>2012/03/01</td>
-                        <td>Victor Filey</td>
-                        <td>
-                          <span class="badge badge-success">Saved in VF</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Dennis Rader</td>
-                        <td>Executry</td>
-                        <td>2012/01/21</td>
-                        <td>Holden Ford</td>
-                        <td>
-                          <span class="badge badge-warning">Pending</span>
-                        </td>
-                        <td></td>
+                        <td>Status</td>
+                        <td><span class="badge badge-success">Saved in VF</span></td>
                       </tr>
                     </tbody>
                   </table>
                 </div>
+                <div class="card-footer">
+                  <div class="float-right">
+                    <button type="submit" class="btn btn-sm btn-primary">
+                      <i class="fa fa-search"></i> View
+                    </button>
+                    <button type="reset" class="btn btn-sm btn-danger">
+                      <i class="fa fa-trash"></i> Delete
+                    </button>
+                  </div>
+                </div>
               </div>
             </div>
+            <!--/.col-->
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  Estavan Lykos <div class="float-right">02/01/2012</div>
+                </div>
+                <div class="card-body">
+                  <table class="table table-responsive-sm">
+                    <tbody>
+                      <tr>
+                        <td>Deceased Name</td>
+                        <td>Bob Dole</td>
+                      </tr>
+                      <tr>
+                        <td>Account Number</td>
+                        <td>MF00405.0001</td>
+                      </tr>
+                      <tr>
+                        <td>Fee Earner</td>
+                        <td>George Constanza</td>
+                      </tr>
+                      <tr>
+                        <td>Status</td>
+                        <td><span class="badge badge-warning">Pending</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right">
+                    <button type="submit" class="btn btn-sm btn-primary">
+                      <i class="fa fa-search"></i> View
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-success">
+                      <i class="fa fa-pencil"></i> Edit
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-secondary">
+                      <i class="fa fa-folder"></i> Mark as inactive
+                    </button>
+                    <button type="reset" class="btn btn-sm btn-danger">
+                      <i class="fa fa-trash"></i> Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.col-->
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  Chetan Mohamed <div class="float-right">02/01/2012</div>
+                </div>
+                <div class="card-body">
+                  <table class="table table-responsive-sm">
+                    <tbody>
+                      <tr>
+                        <td>Deceased Name</td>
+                        <td>Allan White</td>
+                      </tr>
+                      <tr>
+                        <td>Account Number</td>
+                        <td>FS2222.0004</td>
+                      </tr>
+                      <tr>
+                        <td>Fee Earner</td>
+                        <td>Jason Campbell</td>
+                      </tr>
+                      <tr>
+                        <td>Status</td>
+                        <td><span class="badge badge-secondary">Inactive</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right">
+                    <button type="submit" class="btn btn-sm btn-primary">
+                      <i class="fa fa-folder"></i> Mark as active
+                    </button>
+                    <button type="reset" class="btn btn-sm btn-danger">
+                      <i class="fa fa-trash"></i> Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.col-->
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  Dennis Rader <div class="float-right">21/01/2012</div>
+                </div>
+                <div class="card-body">
+                  <table class="table table-responsive-sm">
+                    <tbody>
+                      <tr>
+                        <td>Deceased Name</td>
+                        <td>Ed Kemper</td>
+                      </tr>
+                      <tr>
+                        <td>Account Number</td>
+                        <td>KE24167.0001</td>
+                      </tr>
+                      <tr>
+                        <td>Fee Earner</td>
+                        <td>Holden Ford</td>
+                      </tr>
+                      <tr>
+                        <td>Status</td>
+                        <td><span class="badge badge-warning">Pending</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right">
+                    <button type="submit" class="btn btn-sm btn-primary">
+                      <i class="fa fa-search"></i> View
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-success">
+                      <i class="fa fa-pencil"></i> Edit
+                    </button>
+                    <button type="submit" class="btn btn-sm btn-secondary">
+                      <i class="fa fa-folder"></i> Mark as inactive
+                    </button>
+                    <button type="reset" class="btn btn-sm btn-danger">
+                      <i class="fa fa-trash"></i> Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.col-->
+            <div class="col-sm-6 col-md-4">
+              <div class="card">
+                <div class="card-header">
+                  Derick Maximinus <div class="float-right">03/01/2012</div>
+                </div>
+                <div class="card-body">
+                  <table class="table table-responsive-sm">
+                    <tbody>
+                      <tr>
+                        <td>Deceased Name</td>
+                        <td>Jimothy Holt</td>
+                      </tr>
+                      <tr>
+                        <td>Account Number</td>
+                        <td>SC23256.0005</td>
+                      </tr>
+                      <tr>
+                        <td>Fee Earner</td>
+                        <td>Victor Filey</td>
+                      </tr>
+                      <tr>
+                        <td>Status</td>
+                        <td><span class="badge badge-success">Saved in VF</span></td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+                <div class="card-footer">
+                  <div class="float-right">
+                    <button type="submit" class="btn btn-sm btn-primary">
+                      <i class="fa fa-search"></i> View
+                    </button>
+                    <button type="reset" class="btn btn-sm btn-danger">
+                      <i class="fa fa-trash"></i> Delete
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!--/.col-->
           </div>
         </div>
       </div>

@@ -134,98 +134,203 @@
       <!-- Breadcrumb-->
       <ol class="breadcrumb">
         <li class="breadcrumb-item">Home</li>
-        <li class="breadcrumb-item active">Dashboard</li>
+        <li class="breadcrumb-item">New Form</li>
+        <li class="breadcrumb-item active">Executry Form</li>
         <!-- Breadcrumb Menu-->
       </ol>
       <div class="container-fluid">
         <div class="animated fadeIn">
           <div class="row">
-            <div class="col-sm-12 col-xl-4">
+            <div class="col">
               <div class="card">
                 <div class="card-header">
-                  <i class="fa fa-align-justify"></i> New Form
+                  <i class="fa fa-align-justify"></i> Executry Form
                 </div>
                 <div class="card-body">
-                  <p class="lead">Start a new executry form here!</p>
-                  <hr class="my-3">
-                  <p>Get started with a brand new executry form by clicking the button below.</p>
-                  <p class="lead">
-                    <a class="btn btn-primary btn-lg" href="new-form.html" role="button">Create Form</a>
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="col-sm-12 col-xl-8">
-              <div class="card">
-                <div class="card-header">
-                  <i class="fa fa-align-justify"></i> My Recent Forms
-                </div>
-                <div class="card-body">
-                  <table class="table table-responsive-sm">
-                    <thead>
-                      <tr>
-                        <th>Client</th>
-                        <th>Description</th>
-                        <th>Date</th>
-                        <th>Fee Earner</th>
-                        <th>Status</th>
-                      </tr>
-                    </thead>
-                    <tbody>
-                      <tr>
-                        <td>Samppa Nori</td>
-                        <td>Executry</td>
-                        <td>2012/01/01</td>
-                        <td>Bob Dole</td>
-                        <td>
-                          <span class="badge badge-success">Saved in VF</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Estavan Lykos</td>
-                        <td>Executry</td>
-                        <td>2012/02/01</td>
-                        <td>George Constanza</td>
-                        <td>
-                          <span class="badge badge-warning">Pending</span>
-                        </td>
-                      </tr>
-                      <tr>
-                        <td>Chetan Mohamed</td>
-                        <td>Executry</td>
-                        <td>2012/02/01</td>
-                        <td>Jason Campbell</td>
-                        <td>
-                          <span class="badge badge-secondary">Inactive</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Derick Maximinus</td>
-                        <td>Executry</td>
-                        <td>2012/03/01</td>
-                        <td>Victor Filey</td>
-                        <td>
-                          <span class="badge badge-success">Saved in VF</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                      <tr>
-                        <td>Dennis Rader</td>
-                        <td>Executry</td>
-                        <td>2012/01/21</td>
-                        <td>Holden Ford</td>
-                        <td>
-                          <span class="badge badge-warning">Pending</span>
-                        </td>
-                        <td></td>
-                      </tr>
-                    </tbody>
-                  </table>
+                  <div class="row">
+                    <div class="col-4 col-lg-3">
+                      <div class="list-group" id="list-tab" role="tablist">
+                        <a class="list-group-item list-group-item-action active" id="list-home-list" data-toggle="tab" href="#list-home" role="tab" aria-controls="list-home" aria-selected="false">Personal Details<i class="icon-check icons font-2xl d-block float-right"></i></a>
+                        <a class="list-group-item list-group-item-action" id="list-profile-list" data-toggle="tab" href="#list-profile" role="tab" aria-controls="list-profile" aria-selected="true">Section I - Will Details</a>
+                        <a class="list-group-item list-group-item-action" id="list-messages-list" data-toggle="tab" href="#list-messages" role="tab" aria-controls="list-messages">Section II - Intestate</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-settings" role="tab" aria-controls="list-settings">Section III - Predeceasing Spouse</a>
+                        <a class="list-group-item list-group-item-action" id="list-settings-list" data-toggle="tab" href="#list-settings" role="tab" aria-controls="list-section-4">Section IV - Deceased's Estate</a>
+                      </div>
+                    </div>
+                    <div class="col-8 col-lg-9">
+                      <div class="tab-content" id="nav-tabContent">
+                        <div class="tab-pane fade active show" id="list-home" role="tabpanel" aria-labelledby="list-home-list">
+                          <div class="card">
+                            <div class="card-header">
+                              <strong>Deceased's Details</strong>
+                            </div>
+                            <div class="card-body">
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="company">Full Name</label>
+                                  <input class="form-control" id="company" placeholder="Enter the deceased's full name" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="vat">Address</label>
+                                  <input class="form-control" id="vat" placeholder="Enter the deceased's address" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-6">
+                                  <label for="street">Marital Status</label>
+                                  <select class="form-control" id="street">
+                                    <option>Single</option>
+                                    <option>Married</option>
+                                    <option>Separated</option>
+                                    <option>Divorced</option>
+                                    <option>Civil Partner</option>
+                                    <option>Widowed</option>
+                                    <option>Cohabitee</option>
+                                  </select>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-sm-6">
+                                  <label for="city">Date of Birth</label>
+                                  <input class="form-control" id="city" placeholder="dd/mm/yyyy" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-sm-6">
+                                  <label for="postal-code">Date of Death</label>
+                                  <input class="form-control" id="postal-code" placeholder="dd/mm/yyyy" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="place">Place of Death</label>
+                                  <input class="form-control" id="place" placeholder="Enter place of death" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="country">Occupation</label>
+                                  <input class="form-control" id="country" placeholder="Enter the deceased's occupation" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="domicile">Domicile</label>
+                                  <input class="form-control" id="domicile" placeholder="Enter the deceased's occupation" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="insurance">National Insurance Number</label>
+                                  <input class="form-control" id="insurance" placeholder="Enter the deceased's NI number" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="tax">Tax Reference</label>
+                                  <input class="form-control" id="tax" placeholder="Enter a tex reference" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header">
+                              <strong>Death Certificate</strong>
+                            </div>
+                            <div class="card-body">
+                              <div class="form-group row">
+                                <div class="col-lg-9 col-form-label">
+                                  <div class="form-check form-check-inline mr-1">
+                                    <input class="form-check-input" id="inline-checkbox1" value="check1" type="checkbox">
+                                    <label class="form-check-label" for="inline-checkbox1"><b><u>Full Extract</u></b> Death Certificate</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="city">If Thorntons registering death</label>
+                                  <input class="form-control" id="city" placeholder="Name and Address of G.P" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="card">
+                            <div class="card-header">
+                              <strong>Funeral Details</strong>
+                            </div>
+                            <div class="card-body">
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="city">Undertaker</label>
+                                  <input class="form-control" id="city" placeholder="Enter name and address of undertaker" type="text">
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <div class="col-lg-9 col-form-label">
+                                  <div class="form-check form-check-inline mr-1">
+                                    <input class="form-check-input" id="inline-checkbox1" value="check1" type="checkbox">
+                                    <label class="form-check-label" for="inline-checkbox1">Is funeral account being passed to Thorntons?</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="form-group row">
+                                <div class="col-lg-9 col-form-label">
+                                  <div class="form-check form-check-inline mr-1">
+                                    <input class="form-check-input" id="inline-checkbox1" value="check1" type="checkbox">
+                                    <label class="form-check-label" for="inline-checkbox1">Is there a pre paid funeral plan?</label>
+                                  </div>
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="city">Headstone</label>
+                                  <input class="form-control" id="city" placeholder="Enter any headstone details" type="text">
+                                </div>
+                              </div>
+                              <div class="row">
+                                <div class="form-group col-lg-9">
+                                  <label for="city">Disposal of ashes</label>
+                                  <input class="form-control" id="city" placeholder="Enter instructions for the disposal of any ashes" type="text">
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                          <div class="row">
+                            <div class="col-12">
+                              <a class="btn btn-primary float-right" href="#" role="button">Continue</a>
+                            </div>
+                          </div>
+                        </div>
+                        <div class="tab-pane fade" id="list-profile" role="tabpanel" aria-labelledby="list-profile-list">
+                          <p>
+                            Cupidatat quis ad sint excepteur laborum in esse qui. Et excepteur consectetur ex nisi eu do cillum ad laborum. Mollit et eu officia dolore sunt Lorem culpa qui commodo velit ex amet id ex. Officia anim incididunt laboris deserunt
+                            anim aute dolor incididunt veniam aute dolore do exercitation. Dolor nisi culpa ex ad irure in elit eu dolore. Ad laboris ipsum reprehenderit irure non commodo enim culpa commodo veniam incididunt veniam ad.
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-messages" role="tabpanel" aria-labelledby="list-messages-list">
+                          <p>
+                            Ut ut do pariatur aliquip aliqua aliquip exercitation do nostrud commodo reprehenderit aute ipsum voluptate. Irure Lorem et laboris nostrud amet cupidatat cupidatat anim do ut velit mollit consequat enim tempor. Consectetur
+                            est minim nostrud nostrud consectetur irure labore voluptate irure. Ipsum id Lorem sit sint voluptate est pariatur eu ad cupidatat et deserunt culpa sit eiusmod deserunt. Consectetur et fugiat anim do eiusmod aliquip nulla
+                            laborum elit adipisicing pariatur cillum.
+                          </p>
+                        </div>
+                        <div class="tab-pane fade" id="list-settings" role="tabpanel" aria-labelledby="list-settings-list">
+                          <p>
+                            Irure enim occaecat labore sit qui aliquip reprehenderit amet velit. Deserunt ullamco ex elit nostrud ut dolore nisi officia magna sit occaecat laboris sunt dolor. Nisi eu minim cillum occaecat aute est cupidatat aliqua labore
+                            aute occaecat ea aliquip sunt amet. Aute mollit dolor ut exercitation irure commodo non amet consectetur quis amet culpa. Quis ullamco nisi amet qui aute irure eu. Magna labore dolor quis ex labore id nostrud deserunt dolor
+                            eiusmod eu pariatur culpa mollit in irure.
+                          </p>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
+          <!--/row-->
         </div>
       </div>
     </main>
